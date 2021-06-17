@@ -1,4 +1,28 @@
 #contact-container {
   height: 400px;
-  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 8em;
+  font-size: 18px;
+}
+
+#contact-container div {
+  align-self: center;
+}
+
+.img-oblique img {
+  height: 250px;
+  margin: 3em;
+}
+
+#contact-logos {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+#contact-logos img {
+  height: 50px;
 }

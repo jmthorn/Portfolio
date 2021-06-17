@@ -14,7 +14,7 @@ function Work(){
 
         <div className="website-container">
           <a href="https://wayfinder-app.herokuapp.com/">
-            <img src={wayfinder} alt="wayfinder"></img>
+            <img className="website-img" src={wayfinder} alt="wayfinder"></img>
           </a>
           <div className="webisite-info">
             <div className="work-title">Wayfinder</div>
@@ -30,12 +30,12 @@ function Work(){
             <div className="work-description">In this AirBnb clone, a user can search for and book an architecturally significant house for a stay. The user can also manage their bookings and leave a review for the property.</div>
           </div>
           <a href="https://archibnb.herokuapp.com/">
-            <img src={archibnb} alt="archibnb"></img>
+            <img className="website-img" src={archibnb} alt="archibnb"></img>
           </a>
         </div>
         <div className="website-container">
           <a href="https://trademarian.herokuapp.com/">
-            <img src={trademarian} alt="trademarian"></img>
+            <img className="website-img" src={trademarian} alt="trademarian"></img>
           </a>
           <div className="webisite-info">
             <div className="work-title">TradeMarian</div>
@@ -49,8 +49,8 @@ function Work(){
             <div className="work-line"></div>
             <div className="work-description">Our website will allow you to browse through books aimed at personal development. You will be able to add books to your custom bookshelves, and add ratings and reviews to each book.</div>
           </div>
-          <a href="https://brainfood-app.herokuapp.com/">
-            <img src={brainfood} alt="brainfood"></img>
+          <a href="https://brainfood-app.herokuapp.com/users/signup">
+            <img className="website-img" src={brainfood} alt="brainfood"></img>
           </a>
         </div>
       </div>
