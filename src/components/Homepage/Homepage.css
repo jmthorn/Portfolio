@@ -1,0 +1,40 @@
+#homepage-container {
+  background-image: url("../../images/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+}
+
+#get-to-know-button {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#get-to-know-button div {
+  align-self: center;
+  margin-bottom: 3em;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#get-to-know-button img {
+  height: 10em;
+}
+
+#get-to-know-button button {
+  border: 3.5px solid black;
+  background-color: transparent;
+  padding: 1em;
+  margin: 1em;
+  width: fit-content;
+  align-self: center;
+}
+
+#get-to-know-button button:hover {
+  box-shadow: 10px 10px 0px black;
+}
