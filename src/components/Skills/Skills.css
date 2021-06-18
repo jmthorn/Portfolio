@@ -2,27 +2,36 @@
   height: auto;
   padding: 6em;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
 #skills-title {
-  font-size: 20px;
-  flex: 0 0 4em;
-  font-weight: 800;
-  margin: 2em 1.5em 0em 1em;
+  font-size: 24px;
+  margin: 0em 1.5em 2em 1em;
+  align-self: center;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 #skills-logos {
   display: flex;
   flex-direction: row;
-  flex: 0 0 3;
   flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
+  width: 80%;
+  align-self: center;
+  margin-bottom: 3em;
 }
 
 #skills-logos img {
   height: 75px;
   margin: 2em 2em 1em;
+}
+
+#skills-line {
+  border-bottom: 1px solid lightgray;
+  width: 60%;
+  align-self: center;
+  margin-bottom: 2em;
 }

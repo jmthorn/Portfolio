@@ -26,3 +26,9 @@
 #contact-logos img {
   height: 50px;
 }
+
+#email-contact a {
+  text-decoration: none;
+  color: rgb(21, 100, 105);
+  font-weight: 600;
+}

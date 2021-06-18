@@ -13,7 +13,7 @@ function Contact(){
         <img src={oblique} alt="oblique"></img>
       </div>
       <div>I'd love to hear from you!</div>
-      <div>Contact me at jmthorn16@gmail.com</div>
+      <div id="email-contact">Contact me at <a href="mailto:jmthorn16@gmail.com">jmthorn16@gmail.com</a></div>
       <div id="contact-logos">
         <a href="https://github.com/jmthorn">
           <img src={github} alt="github"></img>

@@ -14,7 +14,7 @@ function Homepage(){
     <div id="homepage-container">
         <div id="get-to-know-button">
             <img id="hi-jessica" src={hi} alt="Hi"></img>
-            <div>I'M A SOFTWARE ENGINEER</div>
+            <div>I'M A FULL-STACK SOFTWARE ENGINEER</div>
             <button onClick={() => workDiv.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"}) }>CHECK OUT MY WORK</button>
         </div>
     </div>

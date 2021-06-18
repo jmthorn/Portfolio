@@ -21,7 +21,8 @@ function Skills(){
 
   return (
     <div id="skills-container">
-      <div id="skills-title">SKILLS:</div>
+      <div id="skills-title">SKILLS</div>
+      <div id="skills-line"></div>
       <div id="skills-logos">
         <img src={python} alt="python"></img>
         <img src={javascript} alt="javascript"></img>
